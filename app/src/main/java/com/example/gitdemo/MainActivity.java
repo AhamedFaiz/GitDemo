@@ -12,6 +12,11 @@ public class MainActivity extends AppCompatActivity {
         int sum = i+j;
         sum += i;
     }
+    public void diff(){
+        int i = 2;
+        int j =3;
+        int sum = i + j;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
